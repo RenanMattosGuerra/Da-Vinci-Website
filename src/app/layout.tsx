@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "Leonardo da Vinci Website",
   description: "The work and story of Da Vinci",
   openGraph: {
-    title: "Leonardo da Vinci",
-    description: "Learn about the famous polymath",
+    title: "Leonardo da Vinci Website",
+    description: "Fictional website about the famous polymath",
   },
   robots: {
     index: true,

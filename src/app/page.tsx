@@ -9,13 +9,13 @@ export default function Home() {
     <main className="flex flex-col  justify-start items-center min-h-fit w-full">
       <section className="bg-[url('/images/OIG1.webp')] w-full min-h-55 bg-cover bg-center flex justify-center items-center">
         <div className="backdrop-blur-3xl p-sm flex flex-col justify-center items-center gap-md rounded-2xl">
-          <h1 className="font-semibold text-5xl text-shade-five font-name ba">
+          <h1 className="font-semibold text-size-xl md:text-size-heading text-shade-five font-name ba">
             Leonardo da Vinci
           </h1>
-          <p className="font-heading2 text-2xl text-text">
+          <p className="font-heading2 text-size-md md:text-size-xl text-text animate-pulse">
             Artist • Engineer • Anatomist • Futurist
           </p>
-          <p className="font-text text-2xl text-text italic">
+          <p className="font-text text-size-md md:text-size-xl text-text italic">
             “Learning never exhausts the mind.”
           </p>
         </div>
@@ -33,13 +33,13 @@ export default function Home() {
           className="flex flex-col justify-center items-center gap-xl"
           data-aos="fade-up"
         >
-          <p className="font-heading2 text-center text-text text-3xl max-w-130">
+          <p className="font-heading2 text-center text-text text-size-lg md:text-size-xxl max-w-130">
             I observe, I question, I design. Art is my language. Science is my
             method.
           </p>
           <Link
             href="/shop"
-            className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-all duration-200 flex gap-sm"
+            className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-110 transition-all duration-200 flex gap-sm"
           >
             Shop <Store /> Creations & Merch
           </Link>

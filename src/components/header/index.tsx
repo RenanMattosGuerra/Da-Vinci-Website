@@ -6,25 +6,25 @@ export function Header() {
       <nav className="flex gap-lg font-heading2">
         <Link
           href="/"
-          className=" transition-all duration-200 hover:text-shade-two"
+          className="transition-all duration-200 hover:text-shade-two text-size-sm md:text-size-md"
         >
           Home
         </Link>
         <Link
           href="/shop"
-          className="transition-all duration-200 hover:text-shade-two"
+          className="transition-all duration-200 hover:text-shade-two text-size-sm md:text-size-md"
         >
           Shop
         </Link>
         <Link
           href="/about"
-          className="transition-all duration-200 hover:text-shade-two"
+          className="transition-all duration-200 hover:text-shade-two text-size-sm md:text-size-md"
         >
           About
         </Link>
         <Link
           href="/contact"
-          className="transition-all duration-200 hover:text-shade-two"
+          className="transition-all duration-200 hover:text-shade-two text-size-sm md:text-size-md"
         >
           Contact
         </Link>

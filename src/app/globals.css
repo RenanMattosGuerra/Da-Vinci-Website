@@ -28,6 +28,15 @@
   --font-heading: "Sacramento", cursive;
   --font-heading2: "Spectral", serif;
   --font-text: "Inter", sans-serif;
+
+  /*Text Sizes*/
+  --text-size-xs: 10px;
+  --text-size-sm: 12px;
+  --text-size-md: 16px;
+  --text-size-lg: 20px;
+  --text-size-xl: 24px;
+  --text-size-xxl: 30px;
+  --text-size-heading: 48px;
 }
 
 body {

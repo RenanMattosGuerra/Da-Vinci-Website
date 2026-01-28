@@ -32,7 +32,7 @@ export function Footer() {
           <Instagram className="text-shade-two w-6 h-6"></Instagram>
         </a>
       </aside>
-      <p className="text-shade-one font-text text-sm text-center">
+      <p className="text-shade-one font-text text-size-sm md:text-sm text-center">
         Copyright © 2026 - Created by Renan Guerra
       </p>
     </footer>

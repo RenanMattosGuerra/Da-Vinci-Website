@@ -23,7 +23,7 @@ export default async function ProductPage({ params }: PageProps) {
   return (
     <main className="w-full md:min-h-189 p-lg flex justify-center items-center">
       <section className="bg-white p-xl rounded-2xl flex flex-col md:flex-row w-full h-full max-w-4xl shadow-2xl gap-xl">
-        <div className="relative md:w-1/2 overflow-hidden rounded-2xl hover:shadow-2xl h-120">
+        <div className="relative md:w-1/2 overflow-hidden rounded-2xl hover:shadow-2xl h-90 md:h-120">
           <Image
             src={product.src}
             alt={product.alt}
@@ -32,15 +32,17 @@ export default async function ProductPage({ params }: PageProps) {
           />
         </div>
         <article className="flex flex-col md:h-120 h-50 justify-center items-center md:w-1/2 gap-lg text-justify rounded-2xl">
-          <h1 className="text-2xl font-bold font-heading2 border-b-2 border-gray-300">
+          <h1 className="text-size-lg md:text-size-xl font-bold font-heading2 border-b-2 border-gray-300">
             {product.title}
           </h1>
-          <p className="text-gray-600 font-text">{product.description}</p>
+          <p className="text-gray-600 font-text text-size-sm md:text-size-md">
+            {product.description}
+          </p>
           <div className="flex gap-md items-center">
-            <span className="line-through text-red-800 font-text">
+            <span className="text-size-sm md:text-size-lg line-through text-red-800 font-text">
               ${formatNumberBR(product.discount)}
             </span>
-            <span className="text-2xl font-bold text-shade-five font-text">
+            <span className="text-size-md md:text-size-xl font-bold text-shade-five font-text">
               ${formatNumberBR(product.price)}
             </span>
           </div>

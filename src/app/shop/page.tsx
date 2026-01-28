@@ -8,7 +8,7 @@ import { products } from "@/data/products";
 export default function Shop() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     align: "start",
   });
 
@@ -42,6 +42,7 @@ export default function Shop() {
         </div>
         <div className="relative bottom-50 flex justify-between items-center m-auto max-w-5xl pointer-events-none">
           <button
+            type="button"
             title="scrollPrev"
             className="embla__prev cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative right-4 hover:bg-shade-two transition-all duration-200 pointer-events-auto"
             onClick={scrollPrev}
@@ -49,6 +50,7 @@ export default function Shop() {
             <ChevronLeft className="w-6 h-6 text-text" />
           </button>
           <button
+            type="button"
             title="scrollNext"
             className="embla__next cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative left-4 hover:bg-shade-two transition-all duration-200 pointer-events-auto"
             onClick={scrollNext}
