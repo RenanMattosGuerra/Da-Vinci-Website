@@ -21,7 +21,7 @@ export default async function ProductPage({ params }: PageProps) {
   }
 
   return (
-    <main className="w-full md:min-h-189 p-lg flex justify-center items-center">
+    <main className="w-full min-h-180 md:min-h-189 p-lg flex justify-center items-center">
       <section className="bg-white p-xl rounded-2xl flex flex-col md:flex-row w-full h-full max-w-4xl shadow-2xl gap-xl">
         <div className="relative md:w-1/2 overflow-hidden rounded-2xl hover:shadow-2xl h-90 md:h-120">
           <Image

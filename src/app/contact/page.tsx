@@ -3,7 +3,7 @@ import { Mail, Phone } from "lucide-react";
 export default function Contact() {
   return (
     <main>
-      <div className="w-full h-screen max-h-189 lg:bg-[url('/images/OIG44.webp')] bg-cover bg-top flex justify-center items-center flex-col gap-xl">
+      <div className="w-full min-h-180 md:min-h-189 lg:bg-[url('/images/OIG44.webp')] bg-cover bg-top flex justify-center items-center flex-col gap-xl">
         <h1 className="font-name text-4xl font-bold text-text ">Contact</h1>
         <form
           action="post"
