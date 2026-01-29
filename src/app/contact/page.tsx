@@ -14,7 +14,7 @@ export default function Contact() {
             type="text"
             name="name"
             id="name"
-            className="p-2 border-2 rounded-lg border-shade-five focus-within:bg-shade-one"
+            className="p-2 border-2 rounded-lg border-shade-five focus-within:bg-shade-one focus-within:scale-105 transition-all duration-200"
             required
           />
           <label htmlFor="mail">E-Mail :</label>
@@ -22,14 +22,14 @@ export default function Contact() {
             type="email"
             name="mail"
             id="mail"
-            className="p-2 border-2 rounded-lg border-shade-five focus-within:bg-shade-one"
+            className="p-2 border-2 rounded-lg border-shade-five focus-within:bg-shade-one focus-within:scale-105 transition-all duration-200"
             required
           />
           <label htmlFor="text">Message :</label>
           <textarea
             name="textarea"
             id="text"
-            className="p-2 border-2 rounded-lg border-shade-five min-h-40 focus-within:bg-shade-one"
+            className="p-2 border-2 rounded-lg border-shade-five min-h-40 focus-within:bg-shade-one focus-within:scale-105 transition-all duration-200"
             required
           ></textarea>
           <input
