@@ -5,6 +5,8 @@ export type Product = {
   src: string;
   price: number;
   discount: number;
+  size: string;
+  material: string;
   slug: string;
 };
 
@@ -16,6 +18,8 @@ export const products: Product[] = [
     src: "/images/mona-lisa.webp",
     price: 850000000,
     discount: 1000000000,
+    size: "77 x 53 cm",
+    material: "Oil paint on a poplar wood panel",
     slug: "mona-lisa-frame",
   },
   {
@@ -25,6 +29,8 @@ export const products: Product[] = [
     src: "/images/last-supper.webp",
     price: 780000000,
     discount: 850000000,
+    size: "460 x 880 cm",
+    material: "Tempera and oil on dry plaster",
     slug: "the-last-supper-frame",
   },
   {
@@ -34,6 +40,8 @@ export const products: Product[] = [
     src: "/images/vitruvian-man.webp",
     price: 400000000,
     discount: 500000000,
+    size: "34.6 x 25.5 cm",
+    material: "Pen and ink with wash on handmade paper",
     slug: "vitruvian-man-frame",
   },
   {
@@ -43,6 +51,8 @@ export const products: Product[] = [
     src: "/images/codices.webp",
     price: 450000000,
     discount: 500000000,
+    size: "65 x 44 cm",
+    material: "Ink on handmade paper",
     slug: "codex-atlanticus",
   },
   {
@@ -52,6 +62,8 @@ export const products: Product[] = [
     src: "/images/Leonardo_da_Vinci_helicopter_and_lifting_wing.webp",
     price: 160000000,
     discount: 200000000,
+    size: "30 x 45 cm",
+    material: "Pen and ink on handmade paper",
     slug: "flying-machine",
   },
   {
@@ -61,6 +73,8 @@ export const products: Product[] = [
     src: "/images/robot-knight.webp",
     price: 140000000,
     discount: 180000000,
+    size: "29 x 42 cm",
+    material: "Pen and ink on handmade paper",
     slug: "mechanical-knight",
   },
   {
@@ -70,6 +84,8 @@ export const products: Product[] = [
     src: "/images/davinci-botanical-design.webp",
     price: 95000000,
     discount: 110000000,
+    size: "28 x 40 cm",
+    material: "Pen and ink on handmade paper",
     slug: "botanical-studies",
   },
   {
@@ -79,6 +95,8 @@ export const products: Product[] = [
     src: "/images/davinci-light-studies.webp",
     price: 110000000,
     discount: 150000000,
+    size: "30 x 44 cm",
+    material: "Pen and ink on handmade paper",
     slug: "optics-and-light-studies",
   },
   {
@@ -88,60 +106,74 @@ export const products: Product[] = [
     src: "/images/davinci-bridge.webp",
     price: 120000000,
     discount: 150000000,
+    size: "27 x 38 cm",
+    material: "Pen and ink on handmade paper",
     slug: "self-supporting-bridge",
   },
   {
     title: "Mona Lisa T-Shirt",
-    description: "",
+    description: "A timeless icon reimagined as modern wearable art.",
     alt: "Mona Lisa T-Shirt",
     src: "/images/monalisashirt.webp",
     price: 24.99,
     discount: 35,
+    size: "S, M, L, XL",
+    material: "100% cotton",
     slug: "merch-mona-lisa-shirt",
   },
   {
     title: "Vitruvian Man T-Shirt",
-    description: "",
+    description: "Where human proportion meets contemporary style.",
     alt: "Vitruvian Man T-Shirt",
     src: "/images/vitruvianmanshirt.webp",
     price: 19.99,
     discount: 25,
+    size: "S, M, L, XL",
+    material: "100% cotton",
     slug: "merch-vitruvian-man-shirt",
   },
   {
     title: "Last Supper Hoodie",
-    description: "",
+    description: "Classic art fused with modern comfort.",
     alt: "The Last Supper Hoodie",
     src: "/images/lastsupperhoodie.webp",
     price: 49.99,
     discount: 70,
+    size: "S, M, L, XL",
+    material: "50% cotton / 50% polyester",
     slug: "merch-last-supper-hoodie",
   },
   {
     title: "Anatomical Shirt",
-    description: "",
+    description: "Leonardo’s anatomical studies turned into wearable design.",
     alt: "Anatomical Shirt",
     src: "/images/davinciskeletonshirt.webp",
     price: 24.99,
     discount: 30,
+    size: "S, M, L, XL",
+    material: "100% combed cotton",
     slug: "merch-anatomical-shirt",
   },
   {
     title: "Da Vinci Hat",
-    description: "",
+    description: "Minimalist style inspired by a Renaissance genius.",
     alt: "Da Vinci Hat",
     src: "/images/hat.webp",
     price: 14.99,
     discount: 20,
+    size: "One adjustable size",
+    material: "100% cotton twill",
     slug: "merch-da-vinci-hat",
   },
   {
     title: "Drawings Shirt",
-    description: "",
+    description: "Original Da Vinci sketches transformed into fashion.",
     alt: "Drawings Shirt",
     src: "/images/davincidrawingshirt.webp",
     price: 32.5,
     discount: 35,
+    size: "S, M, L, XL",
+    material: "100% cotton",
     slug: "merch-drawings-shirt",
   },
 ];
