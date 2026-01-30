@@ -3,13 +3,13 @@ import { Mail, Phone } from "lucide-react";
 export default function Contact() {
   return (
     <section className="flex-1 flex">
-      <div className="w-full min-h-full lg:bg-[url('/images/OIG44.webp')] bg-cover bg-top flex justify-center items-center flex-col gap-xl">
-        <h1 className="font-name text-size-heading font-bold text-shade-five">
+      <div className="w-full min-h-full lg:bg-[url('/images/OIG44.webp')] bg-cover bg-top flex justify-center items-center flex-col gap-xl py-lg">
+        <h1 className="font-name text-size-xxl md:text-size-heading font-bold text-shade-five">
           Contact
         </h1>
         <form
           action="post"
-          className="flex flex-col justify-center gap-sm font-text text-text min-w-72"
+          className="flex flex-col justify-center gap-sm font-text text-text min-w-80"
         >
           <label htmlFor="name">Name :</label>
           <input
