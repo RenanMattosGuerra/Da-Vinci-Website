@@ -31,7 +31,7 @@ export default function Home() {
         />
         <div className="flex flex-col justify-center items-center gap-xl">
           <p
-            className="font-heading2 text-center text-text text-size-lg md:text-size-xxl max-w-130 z-10"
+            className="font-heading2 text-center text-text text-size-md md:text-size-xl lg:text-size-xxl max-w-130 z-10"
             data-aos="zoom-in-left"
           >
             I observe, I question, I design. Art is my language. Science is my
@@ -50,7 +50,7 @@ export default function Home() {
             ></Image>
             <Link
               href="/shop"
-              className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-200 flex gap-sm z-10 "
+              className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-200 flex gap-sm z-10"
             >
               Shop <Store /> Creations & Merch
             </Link>
