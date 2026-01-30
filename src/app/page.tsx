@@ -46,7 +46,7 @@ export default function Home() {
               alt="Vitruvian Man Icon"
               width={80}
               height={80}
-              className="relative z-0 left-0 animate-spin hidden lg:block"
+              className="relative z-0 left-0 animate-spinSlow hidden lg:block"
             ></Image>
             <Link
               href="/shop"
@@ -59,7 +59,7 @@ export default function Home() {
               alt="Flying Machine Icon"
               width={80}
               height={80}
-              className="relative z-0 right-0 animate-bounce hidden lg:block"
+              className="relative z-0 right-0 animate-fly hidden lg:block"
             ></Image>
           </div>
         </div>
