@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-start items-center min-h-fit w-full">
       <section className="bg-[url('/images/OIG1.webp')] w-full min-h-55 bg-cover bg-center flex justify-center items-center">
-        <div className="backdrop-blur-3xl p-sm flex flex-col justify-center items-center gap-md rounded-2xl">
+        <div className="backdrop-blur-3xl 2xl:backdrop-blur-none p-sm flex flex-col justify-center items-center gap-md rounded-2xl">
           <h1 className="font-semibold text-size-xxl md:text-size-heading text-shade-five font-name ba">
             Leonardo da Vinci
           </h1>
@@ -20,29 +20,48 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center gap-xl bg-shade-one shadow-2xl h-180 w-full md:flex-row p-sm">
+      <section className="flex flex-col justify-center items-center gap-xl bg-shade-one shadow-2xl h-160 w-full md:flex-row md:p-sm p-1">
         <Image
           src="/images/pexels-davinci-statue.webp"
           alt="Da Vinci Statue"
-          width={250}
+          width={220}
           height={220}
           className="rounded-2xl shadow-2xl"
           data-aos="zoom-in-down"
         />
-        <div
-          className="flex flex-col justify-center items-center gap-xl"
-          data-aos="zoom-in-up"
-        >
-          <p className="font-heading2 text-center text-text text-size-lg md:text-size-xxl max-w-130">
+        <div className="flex flex-col justify-center items-center gap-xl">
+          <p
+            className="font-heading2 text-center text-text text-size-lg md:text-size-xxl max-w-130 z-10"
+            data-aos="zoom-in-left"
+          >
             I observe, I question, I design. Art is my language. Science is my
             method.
           </p>
-          <Link
-            href="/shop"
-            className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-200 flex gap-sm"
+          <div
+            className="flex justify-center items-center gap-md"
+            data-aos="zoom-in-up"
           >
-            Shop <Store /> Creations & Merch
-          </Link>
+            <Image
+              src="/icons/vitruvian.svg"
+              alt="Vitruvian Man Icon"
+              width={80}
+              height={80}
+              className="relative z-0 animate-spin left-0"
+            ></Image>
+            <Link
+              href="/shop"
+              className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-200 flex gap-sm z-10 "
+            >
+              Shop <Store /> Creations & Merch
+            </Link>
+            <Image
+              src="/icons/flying.svg"
+              alt="Flying Machine Icon"
+              width={80}
+              height={80}
+              className="relative z-0 right-0 animate-bounce"
+            ></Image>
+          </div>
         </div>
       </section>
       <section className="p-xxl min-h-120 flex justify-center items-center">
@@ -69,6 +88,20 @@ export default function Home() {
             Codices & Studies
           </Card>
         </div>
+        <Image
+          src="/icons/monalisa.svg"
+          alt="Monalisa Icon"
+          width={300}
+          height={300}
+          className="hidden absolute 2xl:block top-250 right-2 z-0 pointer-events-none"
+        ></Image>
+        <Image
+          src="/icons/signature.svg"
+          alt="Da Vinci Signature"
+          width={300}
+          height={300}
+          className="hidden absolute 2xl:block top-280 left-15 z-0 pointer-events-none"
+        ></Image>
       </section>
       <article className="bg-shade-one w-full flex flex-col justify-center items-center pt-xxl pb-xxl gap-xxl">
         <h2
