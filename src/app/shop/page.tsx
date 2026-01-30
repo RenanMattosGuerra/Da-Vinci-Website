@@ -16,7 +16,7 @@ export default function Shop() {
   const scrollNext = () => emblaApi?.scrollNext();
 
   return (
-    <main className="w-full flex flex-col justify-center items-center">
+    <section className="w-full flex flex-col justify-center items-center">
       <h1 className="font-bold p-lg font-heading2 text-3xl text-shade-five w-full flex justify-center items-center bg-shade-three">
         Store
       </h1>
@@ -44,7 +44,7 @@ export default function Shop() {
           <button
             type="button"
             title="scrollPrev"
-            className="embla__prev cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative right-4 hover:bg-shade-two transition-all duration-200 pointer-events-auto"
+            className="embla__prev cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative right-4 hover:bg-shade-two transition-colors duration-200 pointer-events-auto"
             onClick={scrollPrev}
           >
             <ChevronLeft className="w-6 h-6 text-text" />
@@ -52,13 +52,13 @@ export default function Shop() {
           <button
             type="button"
             title="scrollNext"
-            className="embla__next cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative left-4 hover:bg-shade-two transition-all duration-200 pointer-events-auto"
+            className="embla__next cursor-pointer p-sm leading-none bg-shade-one border-2 border-shade-five rounded-full shadow-2xl relative left-4 hover:bg-shade-two transition-colors duration-200 pointer-events-auto"
             onClick={scrollNext}
           >
             <ChevronRight className="w-6 h-6 text-text" />
           </button>
         </div>
       </section>
-    </main>
+    </section>
   );
 }

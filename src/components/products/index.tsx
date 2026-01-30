@@ -25,7 +25,7 @@ export function Products({
 }: productsProps) {
   return (
     <Link href={`/product/${slug}`} className="block m-auto">
-      <div className="flex flex-col justify-center items-center p-lg gap-1 font-text bg-white hover:bg-gray-200 transition-all duration-200 min-h-105 w-75">
+      <div className="flex flex-col justify-center items-center p-lg gap-1 font-text bg-white hover:bg-gray-200 transition-colors duration-200 min-h-105 w-75">
         <div className="w-44 h-54 relative m-sm">
           <Image
             src={src}

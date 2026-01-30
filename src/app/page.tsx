@@ -6,10 +6,10 @@ import { Store } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col  justify-start items-center min-h-fit w-full">
+    <div className="flex flex-col justify-start items-center min-h-fit w-full">
       <section className="bg-[url('/images/OIG1.webp')] w-full min-h-55 bg-cover bg-center flex justify-center items-center">
         <div className="backdrop-blur-3xl p-sm flex flex-col justify-center items-center gap-md rounded-2xl">
-          <h1 className="font-semibold text-size-xl md:text-size-heading text-shade-five font-name ba">
+          <h1 className="font-semibold text-size-xxl md:text-size-heading text-shade-five font-name ba">
             Leonardo da Vinci
           </h1>
           <p className="font-heading2 text-size-md md:text-size-xl text-text animate-pulse">
@@ -27,11 +27,11 @@ export default function Home() {
           width={250}
           height={220}
           className="rounded-2xl shadow-2xl"
-          data-aos="zoom-in"
+          data-aos="zoom-in-down"
         />
         <div
           className="flex flex-col justify-center items-center gap-xl"
-          data-aos="fade-up"
+          data-aos="zoom-in-up"
         >
           <p className="font-heading2 text-center text-text text-size-lg md:text-size-xxl max-w-130">
             I observe, I question, I design. Art is my language. Science is my
@@ -39,7 +39,7 @@ export default function Home() {
           </p>
           <Link
             href="/shop"
-            className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-110 transition-all duration-200 flex gap-sm"
+            className="font-text bg-shade-five text-shade-one p-md rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-200 flex gap-sm"
           >
             Shop <Store /> Creations & Merch
           </Link>
@@ -140,6 +140,6 @@ export default function Home() {
           </div>
         </div>
       </article>
-    </main>
+    </div>
   );
 }

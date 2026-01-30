@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main className="w-full">
+    <section className="w-full">
       <div className="bg-fixed bg-center bg-cover bg-[url('/images/pexels-rowaa.webp')] min-h-130"></div>
       <article className="p-sm w-full bg-shade-one">
         <h1 className="max-w-300 text-center font-name text-size-xl md:text-size-heading font-bold">
@@ -52,6 +52,6 @@ export default function About() {
         </p>
       </article>
       <div className="bg-fixed bg-cover bg-top bg-[url('/images/DALL-E-flying.webp')] min-h-170"></div>
-    </main>
+    </section>
   );
 }

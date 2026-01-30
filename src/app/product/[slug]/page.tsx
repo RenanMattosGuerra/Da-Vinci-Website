@@ -21,14 +21,14 @@ export default async function ProductPage({ params }: PageProps) {
   }
 
   return (
-    <main className="w-full min-h-180 md:min-h-189 p-lg flex justify-center items-center">
+    <section className="w-full min-h-180 md:min-h-189 p-lg flex justify-center items-center">
       <section className="bg-white p-xl rounded-2xl flex flex-col md:flex-row w-full h-full max-w-4xl shadow-2xl gap-xl">
         <div className="relative md:w-1/2 overflow-hidden rounded-2xl shadow-2xl h-80 md:h-120">
           <Image
             src={product.src}
             alt={product.alt}
             fill
-            className="object-cover hover:scale-120 transition-all duration-400 object-center"
+            className="object-cover hover:scale-120 transition-transform duration-400 object-center"
           />
         </div>
         <article className="flex flex-col md:h-120 justify-center md:w-1/2 gap-lg text-justify rounded-2xl">
@@ -54,12 +54,12 @@ export default async function ProductPage({ params }: PageProps) {
           </div>
           <button
             type="button"
-            className="bg-shade-four text-shade-one font-text font-semibold py-2 px-6 rounded-2xl hover:scale-105 transition-all duration-200 cursor-pointer shadow-2xl"
+            className="bg-shade-four text-shade-one font-text font-semibold py-2 px-6 rounded-2xl hover:scale-105 transition-transform duration-200 cursor-pointer shadow-2xl"
           >
             Buy
           </button>
         </article>
       </section>
-    </main>
+    </section>
   );
 }

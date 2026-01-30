@@ -50,9 +50,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-full overflow-x-hidden">
+      <body className="w-full overflow-x-hidden min-h-screen flex flex-col">
         <Header></Header>
-        {children}
+        <main className="flex-1 flex flex-col">{children}</main>
         <AosInit></AosInit>
         <Footer></Footer>
       </body>
