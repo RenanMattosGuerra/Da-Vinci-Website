@@ -39,6 +39,33 @@
   --text-size-heading: 48px;
 }
 
+@keyframes spinSlow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly {
+  0%,
+  100% {
+    transform: translateY(-50%);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-spinSlow {
+    animation: spinSlow 6s linear infinite;
+  }
+
+  .animate-fly {
+    animation: fly 3s ease-in-out infinite;
+  }
+}
+
 body {
   background: var(--color-shade-two);
 }
