@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="w-full">
-      <div className="bg-fixed bg-center bg-cover bg-[url('/images/pexels-rowaa.webp')] min-h-130"></div>
+      <div className="bg-fixed bg-center bg-cover bg-[url('/images/pexels-rowaa.jpg')] min-h-130"></div>
       <article className="p-sm w-full bg-shade-one">
         <h1 className="max-w-300 text-center font-name text-size-xl md:text-size-heading font-bold">
           About
