@@ -28,11 +28,13 @@ export default function Home() {
           height={220}
           className="rounded-2xl shadow-2xl"
           data-aos="zoom-in-down"
+          suppressHydrationWarning
         />
         <div className="flex flex-col justify-center items-center gap-xl">
           <p
             className="font-heading2 text-center text-text text-size-md md:text-size-xl lg:text-size-xxl max-w-130 z-10"
             data-aos="zoom-in-left"
+            suppressHydrationWarning
           >
             I observe, I question, I design. Art is my language. Science is my
             method.
@@ -40,6 +42,7 @@ export default function Home() {
           <div
             className="flex justify-center items-center gap-md"
             data-aos="zoom-in-up"
+            suppressHydrationWarning
           >
             <Image
               src="/icons/vitruvian.svg"
@@ -68,6 +71,7 @@ export default function Home() {
         <div
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-xl"
           data-aos="zoom-in"
+          suppressHydrationWarning
         >
           <Card description="Where observation becomes beauty and light reveals the soul of nature.">
             Art & Painting
@@ -107,12 +111,14 @@ export default function Home() {
         <h2
           className="text-5xl font-name font-bold text-shade-five"
           data-aos="fade-up"
+          suppressHydrationWarning
         >
           Timeline
         </h2>
         <div
           className="flex justify-center items-start gap-md"
           data-aos="fade-up"
+          suppressHydrationWarning
         >
           <div className="w-2 h-1110 bg-text rounded-2xl md:h-610 lg:h-360"></div>
           <div className="grid grid-cols-1 gap-xxxl md:grid-cols-2 lg:grid-cols-3">

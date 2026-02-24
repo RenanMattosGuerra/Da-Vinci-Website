@@ -11,6 +11,5 @@ export function AosInit() {
       once: true,
     });
   }, []);
-
   return null;
 }
